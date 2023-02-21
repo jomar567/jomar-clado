@@ -1,18 +1,10 @@
-
-function App() {
+import Layout from './components/layout/Layout';
+import './index.css';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header flex justify-center items-center">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Layout />
+    </>
   );
 }
 
