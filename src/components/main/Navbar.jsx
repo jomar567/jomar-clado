@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     
 
-<nav className="px-3 py-5 absolute w-full bg-blue-primary z-40">
+<nav className="px-3 py-5 w-full bg-blue-primary z-40">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
-    <a href="#" className="flex items-center">
+    <a href="#home" className="flex items-center">
       <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
         JC
       </span>
