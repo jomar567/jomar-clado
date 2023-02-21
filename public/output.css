@@ -1224,6 +1224,10 @@ input:checked + .toggle-bg{
   height: 1.5rem;
 }
 
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -1242,6 +1246,10 @@ input:checked + .toggle-bg{
 
 .w-full{
   width: 100%;
+}
+
+.min-w-\[100vh\]{
+  min-width: 100vh;
 }
 
 .flex-1{
@@ -1322,6 +1330,10 @@ input:checked + .toggle-bg{
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -1356,6 +1368,10 @@ input:checked + .toggle-bg{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1445,6 +1461,11 @@ input:checked + .toggle-bg{
   background-color: rgb(227 160 8 / var(--tw-bg-opacity));
 }
 
+.bg-blue-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 11 27 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -1463,6 +1484,10 @@ input:checked + .toggle-bg{
 
 .p-4{
   padding: 1rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .px-2{
@@ -1541,6 +1566,21 @@ input:checked + .toggle-bg{
   line-height: 1.75rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -1555,6 +1595,14 @@ input:checked + .toggle-bg{
 
 .leading-9{
   line-height: 2.25rem;
+}
+
+.leading-4{
+  line-height: 1rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
 }
 
 .text-blue-600{
@@ -1575,6 +1623,11 @@ input:checked + .toggle-bg{
 .text-yellow-300{
   --tw-text-opacity: 1;
   color: rgb(250 202 21 / var(--tw-text-opacity));
+}
+
+.text-blue-secondary{
+  --tw-text-opacity: 1;
+  color: rgb(100 123 255 / var(--tw-text-opacity));
 }
 
 .opacity-0{
@@ -1792,6 +1845,10 @@ html body {
     width: auto;
   }
 
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1812,6 +1869,11 @@ html body {
 
   .md\:p-0{
     padding: 0px;
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:text-sm{

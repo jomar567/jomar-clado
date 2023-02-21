@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     
 
-<nav className="px-3 py-5">
+<nav className="px-3 py-5 absolute w-full bg-blue-primary z-40">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
     <a href="#" className="flex items-center">
       <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
@@ -24,7 +24,7 @@ const Navbar = () => {
       </button>
     </div>
     <div className="hidden w-full md:block md:w-auto md:order-1" id="navbar-solid-bg">
-      <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+      <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
         <li>
           <a href="#home" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 active hover:text-blue-secondary after:border-b-2 after:border-b-blue-secondary borde" aria-current="page">
             Home
