@@ -19,7 +19,7 @@ const About = () => {
               <h1 className='text-2xl md:text-4xl font-semibold text-blue-secondary mb-5'>
                 Who Am I?
               </h1>
-              <p className=' leading-6 text-justify'>
+              <p className=' leading-6 text-justify dark:text-blue-primary'>
                 Passionate web developer with over 3 years of experience in web development specializing
                 in front-end development and a passion for responsive web design and a firm believer
                 in the mobile-first approach. My expertise lies in HTML, CSS, JavaScript, and a frontend 
@@ -39,7 +39,7 @@ const About = () => {
               <h1 className='text-2xl md:text-4xl font-semibold text-blue-secondary mb-5'>
                 My Goals
               </h1>
-              <p className=' leading-6 text-justify'>
+              <p className=' leading-6 text-justify dark:text-blue-primary'>
               I see myself working with people that develops and innovates web applications that 
               could help other people in their daily lives. As a web 
               developer, I never stop practicing my skills and widening my knowledge on learning 
@@ -48,8 +48,8 @@ const About = () => {
               web applications that meet the needs of end-users and business stakeholders.
               </p>
             </div>
-            <div className='col-span-2 flex h-4/6 lg:h-full justify-center'>
-              <div className='bg-blue-violet w-96 h-96 p-8 whitespace-pre-line leading-6'>
+            <div className='md:col-span-2 col-span-3 flex h-4/6 lg:h-full justify-center'>
+              <div className='bg-blue-violet md:w-96 w-full h-96 md:h-96 md:p-8 p-4 whitespace-pre-line leading-6 rounded-xl dark:shadow-2xl dark:shadow-blue-violet'>
               <Typewriter
                 words={[
                   `while not achieved_goal:\n
