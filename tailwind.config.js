@@ -13,6 +13,7 @@ module.exports = {
         'blue-secondary': "#647BFF",
         'blue-violet': "#2A2A6A",
         gray : "#C0C0C4",
+        'heading': '#232331'
       },
       container: {
         padding: {
