@@ -36,6 +36,5 @@ html body {
 }
 body .portfolio {
   position: relative;
-  height: 100vh;
   background-color: red;
 }
