@@ -26,11 +26,16 @@ html body {
   font-weight: 400;
   font-size: 16px;
   color: #C0C0C4;
-  background-color: #090B1B;
+  /* background-color: #090B1B; */
   width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 .active {
   color: #647BFF
+}
+body .portfolio {
+  position: relative;
+  height: 100vh;
+  background-color: red;
 }
