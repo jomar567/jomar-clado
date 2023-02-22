@@ -4,6 +4,7 @@ import { useState } from 'react'
 import About from "../main/about/About";
 import Skills from "../main/skills/Skills";
 import Career from "../main/career/Career";
+import Projects from "../main/projects/Projects";
 
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,6 +22,7 @@ const Layout = () => {
         <About />
         <Skills />
         <Career />
+        <Projects />
       </main>
 
     </div>
