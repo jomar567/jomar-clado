@@ -6,7 +6,7 @@ import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 const Home = () => {
   return (
     <section>
-      <div className='py-20 md:py-0 absolute flex justify-center items-center min-h-screen w-full px-3'>
+      <div className='py-20 md:py-0 absolute flex justify-center items-center min-h-screen w-full'>
       <div className="container mx-auto relative">
         <div className='grid md:grid-cols-2 gap-5'>
           <div className='text-center md:text-left flex flex-col justify-center'>
@@ -23,24 +23,24 @@ const Home = () => {
             </h1>
             <p className=' md:text-base text-sm'>I am a web developer with 3 years of experience <br />
               specializing in front-end development.</p>
-            <button className=' bg-blue-secondary text-base text-white py-2.5 px-7 mx-auto block md:mx-0 rounded-lg my-4 w-fit'>
+            <button className=' bg-blue-secondary text-base text-white py-2.5 px-7 mx-auto block md:mx-0 rounded-lg my-5 w-fit'>
               Let's Talk
             </button>
             {/* Social Media */}
-          <p className='lg:absolute right-0'>
-            <span className='hidden md:block'>Follow me:</span>
-            <span className='text-blue-secondary'>
-              <a href="">
-                <FontAwesomeIcon icon={brands('linkedin')} className=" text-lg cursor-pointer" />
-              </a>
-              <a href="">
-                <FontAwesomeIcon icon={brands('github')} className=" text-lg cursor-pointer mx-5 md:mx-0" />
-              </a>
-              <a href="">
-                <FontAwesomeIcon icon={brands('facebook')} className=" text-lg cursor-pointer" />
-              </a>
-            </span>
-          </p>
+            <p className='md:absolute bottom-0 text-sm flex justify-center items-center gap-4'>
+              Follow me on:
+              <span className=' text-blue-secondary gap-4 flex'>
+                <a href="https://www.linkedin.com/in/jomarclado/">
+                  <FontAwesomeIcon icon={brands('linkedin')} className=" text-2xl cursor-pointer" />
+                </a>
+                <a href="https://github.com/jomar567">
+                  <FontAwesomeIcon icon={brands('github')} className=" text-2xl cursor-pointer" />
+                </a>
+                <a href="https://www.facebook.com/jomar.clado.79">
+                  <FontAwesomeIcon icon={brands('facebook')} className=" text-2xl cursor-pointer" />
+                </a>
+              </span>
+            </p>
           </div>
 
           <div className='flex justify-center items-center'>

@@ -12,7 +12,16 @@ module.exports = {
         'blue-secondary': "#647BFF",
         'blue-violet': "#2A2A6A",
         gray : "#C0C0C4",
-      }
+      },
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
     },
   },
   plugins: [

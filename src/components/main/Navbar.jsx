@@ -14,7 +14,7 @@ const Navbar = () => {
       </span>
     </a>
     <div className='md:order-2 flex justify-center items-center'>
-      <button className=' bg-blue-secondary text-sm text-white py-3 px-5 mr-4 rounded-lg'>
+      <button className=' bg-blue-secondary md:text-sm text-xs text-white py-3 px-5 mr-4 rounded-lg'>
         Download CV
       </button>
       <FontAwesomeIcon icon={solid('sun')} className="text-2xl cursor-pointer text-yellow-300" />
