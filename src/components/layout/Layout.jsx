@@ -3,6 +3,7 @@ import Navbar from "../main/Navbar"
 import { useState } from 'react'
 import About from "../main/about/About";
 import Skills from "../main/skills/Skills";
+import Career from "../main/career/Career";
 
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,8 +20,9 @@ const Layout = () => {
         <Home />
         <About />
         <Skills />
+        <Career />
       </main>
-      
+
     </div>
   )
 }

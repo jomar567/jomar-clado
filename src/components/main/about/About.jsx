@@ -50,22 +50,24 @@ const About = () => {
             </div>
             <div className='md:col-span-2 col-span-3 flex h-4/6 lg:h-full justify-center'>
               <div className='bg-blue-violet md:w-96 w-full h-96 md:h-96 md:p-8 p-4 whitespace-pre-line leading-6 rounded-xl dark:shadow-2xl dark:shadow-blue-violet'>
-              <Typewriter
-                words={[
-                  `while not achieved_goal:\n
-                   take_action()\n
-                   console.log("Success is a journey, not a destination. Keep working towards your goals.")
-                   \n
-                   <CODE>
-                   <CODE>
-                   <CODE>`
-                ]}
-                loop={0}
-                cursor
-                typeSpeed={70}
-                deleteSpeed={10}
-                delaySpeed={1000}
-              />
+              <code>
+                <Typewriter
+                  words={[
+                    `while not achieved_goal:\n
+                    take_action()\n
+                    console.log("Success is a journey, not a destination. Keep working towards your goals.")
+                    \n
+                    <CODE>
+                    <CODE>
+                    <CODE>`
+                  ]}
+                  loop={0}
+                  cursor
+                  typeSpeed={70}
+                  deleteSpeed={10}
+                  delaySpeed={1000}
+                />
+              </code>
               </div>
             </div>
           </div>
