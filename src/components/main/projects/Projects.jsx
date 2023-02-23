@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const Projects = () => {
   return (
@@ -29,12 +31,14 @@ const Projects = () => {
             <h1 className='text-lg font-medium mb-9 dark:text-blue-primary '>Travel website of Isarog Camarines Sur</h1>
 
             <a href="https://github.com/jomar567/isarog-react" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 mb-3 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                <FontAwesomeIcon icon={brands('github')} className="mr-2" />
                 GitHub
               </button>
             </a>
             <a href="https://isarog-react.vercel.app/" target="_blank" rel="noreferrer">
               <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                <FontAwesomeIcon icon={solid('eye')} className="mr-2" />
                 Live Demo
               </button>
             </a>
@@ -60,12 +64,14 @@ const Projects = () => {
             <h1 className='text-lg font-medium mb-9 dark:text-blue-primary '>Space website about planets of solar system.</h1>
 
             <a href="https://github.com/jomar567/project-2-planets" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 mb-3 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                <FontAwesomeIcon icon={brands('github')} className="mr-2" />
                 GitHub
               </button>
             </a>
             <a href="https://space-verse.vercel.app/" target="_blank" rel="noreferrer">
               <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                <FontAwesomeIcon icon={solid('eye')} className="mr-2" />
                 Live Demo
               </button>
             </a>
@@ -93,12 +99,14 @@ const Projects = () => {
             </h1>
 
             <a href="https://github.com/jomar567/capstone-srms" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+              <button className='dark:text-blue-primary text-base font-medium mb-3 px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                <FontAwesomeIcon icon={brands('github')} className="mr-2" />
                 GitHub
               </button>
             </a>
             <a href="https://srms.kodego.online/" target="_blank" rel="noreferrer">
               <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                <FontAwesomeIcon icon={solid('eye')} className="mr-2" />
                 Live Demo
               </button>
             </a>
@@ -123,12 +131,14 @@ const Projects = () => {
             </h1>
 
             <a href="https://github.com/jomar567/jomar-clado" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 mb-3 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                <FontAwesomeIcon icon={brands('github')} className="mr-2" />
                 GitHub
               </button>
             </a>
             <a href="https://jomar-clado.vercel.app/" target="_blank" rel="noreferrer">
               <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                <FontAwesomeIcon icon={solid('eye')} className="mr-2" />
                 Live Demo
               </button>
             </a>
@@ -156,12 +166,14 @@ const Projects = () => {
             </h1>
 
             <a href="https://github.com/jomar567/kodego-burger" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 mb-3 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                <FontAwesomeIcon icon={brands('github')} className="mr-2" />
                 GitHub
               </button>
             </a>
             <a href="https://kodego-burger.vercel.app/" target="_blank" rel="noreferrer">
               <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                <FontAwesomeIcon icon={solid('eye')} className="mr-2" />
                 Live Demo
               </button>
             </a>
@@ -182,16 +194,18 @@ const Projects = () => {
               </span>
             </div>
             <h1 className='text-lg font-medium mb-9 dark:text-blue-primary '>
-              Fetching APIs from ReactJS demo website
+              Fetching APIs using ReactJS demo website
             </h1>
 
             <a href="https://github.com/jomar567/activity-react-router" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 mb-3 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                <FontAwesomeIcon icon={brands('github')} className="mr-2" />
                 GitHub
               </button>
             </a>
             <a href="https://react-activity-group-1.vercel.app/" target="_blank" rel="noreferrer">
               <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                <FontAwesomeIcon icon={solid('eye')} className="mr-2" />
                 Live Demo
               </button>
             </a>
