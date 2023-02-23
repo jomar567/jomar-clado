@@ -8,7 +8,7 @@ const Projects = () => {
           PROJECTS
         </h1>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
           <div className=' border-2 border-blue-secondary rounded-[30px] p-5'>
             <img src={require('../../../assets/img/isarog.png')}
               alt="Isarog Website"
