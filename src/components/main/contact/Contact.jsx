@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { brands, regular } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { brands, regular, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_331onk9', 'template_p5lwu7m', form.current, 'foML8Zfx8-xSzM_jT')
+    .then((result) => {
+      document.querySelector("#message").innerHTML = "Email Sent Successfully"
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+  };
+
   return (
     <section>
       <div className="container mx-auto py-14">
@@ -50,13 +66,16 @@ const Contact = () => {
             <h1 className='mb-10 text-2xl font-medium dark:text-blue-primary'>
               Write me
             </h1>
-            <form action='' className='flex flex-col'>
+            <form ref={form} onSubmit={sendEmail} className='flex flex-col mb-4'>
               <input type="text" name='name' placeholder='Full Name' className='py-3 bg-transparent border-blue-violet border-2 focus:ring-blue-violet focus:border-blue-violet mb-5 rounded-lg' required />
               <input type="email" name='email' placeholder='Your Email' className='py-3 bg-transparent border-blue-violet border-2 focus:ring-blue-violet focus:border-blue-violet mb-5 rounded-lg' required />
-              <textarea name="messgae" id="" rows="7" placeholder='Message' className='bg-transparent border-blue-violet border-2 focus:ring-blue-violet focus:border-blue-violet rounded-lg' required></textarea>
+              <textarea name="message" id="" rows="7" placeholder='Message' className='bg-transparent border-blue-violet border-2 focus:ring-blue-violet focus:border-blue-violet rounded-lg' required></textarea>
 
               <button type="submit" className='bg-blue-violet px-6 py-4 mt-5 w-max rounded-lg'>Send Message</button>
             </form>
+            <span id='message' className='text-base text-blue-secondary'>
+              <FontAwesomeIcon icon={solid('circle-check')} className="ml-2" />
+            </span>
           </div>
         </div>
       </div>
