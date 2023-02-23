@@ -6,6 +6,7 @@ import Skills from "../main/skills/Skills";
 import Career from "../main/career/Career";
 import Projects from "../main/projects/Projects";
 import Contact from "../main/contact/Contact";
+import Footer from "../main/Footer";
 
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -26,7 +27,7 @@ const Layout = () => {
         <Projects />
         <Contact />
       </main>
-
+      <Footer activeDark={activeDark}/>
     </div>
   )
 }

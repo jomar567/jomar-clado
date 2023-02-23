@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { brands, regular, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { brands, regular } from '@fortawesome/fontawesome-svg-core/import.macro'
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
