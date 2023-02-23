@@ -27,12 +27,12 @@ const Projects = () => {
             <h1 className='text-lg font-medium mb-9 dark:text-blue-primary '>Travel website of Isarog Camarines Sur</h1>
 
             <a href="https://github.com/jomar567/isarog-react" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-gray'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
                 GitHub
               </button>
             </a>
             <a href="https://isarog-react.vercel.app/" target="_blank" rel="noreferrer">
-              <button className='dark:text-gray text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+              <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
                 Live Demo
               </button>
             </a>
@@ -56,20 +56,48 @@ const Projects = () => {
             <h1 className='text-lg font-medium mb-9 dark:text-blue-primary '>Space website about planets of solar system.</h1>
 
             <a href="https://github.com/jomar567/project-2-planets" target="_blank" rel="noreferrer">
-              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-gray'>
+              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
                 GitHub
               </button>
             </a>
             <a href="https://space-verse.vercel.app/" target="_blank" rel="noreferrer">
-              <button className='dark:text-gray text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+              <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
                 Live Demo
               </button>
             </a>
           </div>
 
-          <div >
-            Card
+          <div className=' border-2 border-blue-secondary rounded-[30px] p-5'>
+            <img src={require('../../../assets/img/srms.png')}
+              alt="Isarog Website"
+              className='w-full pb-4' />
+            <div className='mt-4 mb-8'>
+              <span className=" dark:text-blue-primary text-xs font-medium mr-2 px-3 py-2 rounded border border-blue-secondary">
+                Laravel
+              </span>
+              <span className=" dark:text-blue-primary text-xs font-medium mr-2 px-3 py-2 rounded border border-blue-secondary">
+                MySQL
+              </span>
+              <span className=" dark:text-blue-primary text-xs font-medium mr-2 px-3 py-2 rounded border border-blue-secondary">
+                TailwindCSS
+              </span>
+            </div>
+            <h1 className='text-lg font-medium mb-9 dark:text-blue-primary '>
+              Student Result Management System with Student and Admin Dashboard
+            </h1>
+
+            <a href="https://github.com/jomar567/capstone-srms" target="_blank" rel="noreferrer">
+              <button className='dark:text-blue-primary text-base font-medium px-4 py-2 border rounded-lg border-blue-secondary mr-4 hover:bg-blue-secondary hover:text-blue-primary hover:dark:text-white'>
+                GitHub
+              </button>
+            </a>
+            <a href="https://srms.kodego.online/" target="_blank" rel="noreferrer">
+              <button className='dark:text-white text-base font-medium px-4 py-2 rounded-lg bg-blue-secondary text-blue-primary hover:bg-transparent hover:text-gray hover:dark:text-blue-primary hover:border hover:border-blue-secondary'>
+                Live Demo
+              </button>
+            </a>
           </div>
+
           <div >
             Card
           </div>
