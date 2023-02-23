@@ -5,6 +5,7 @@ import About from "../main/about/About";
 import Skills from "../main/skills/Skills";
 import Career from "../main/career/Career";
 import Projects from "../main/projects/Projects";
+import Contact from "../main/contact/Contact";
 
 const Layout = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -23,6 +24,7 @@ const Layout = () => {
         <Skills />
         <Career />
         <Projects />
+        <Contact />
       </main>
 
     </div>
