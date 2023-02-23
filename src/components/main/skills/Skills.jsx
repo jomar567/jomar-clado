@@ -104,6 +104,15 @@ const Skills = () => {
                   <span className='text-center text-xs'>
                     Basic
                   </span>
+                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('laravel')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <span className='px-4'>
+                      Laravel
+                    </span>
+                  </button>
+                  <span className='text-center text-xs'>
+                    Intermediate
+                  </span>
                 </div>
 
                 <div className='flex flex-col'>
@@ -126,6 +135,7 @@ const Skills = () => {
                     Basic
                   </span>
                 </div>
+
               </div>
             </div>
           </div>
