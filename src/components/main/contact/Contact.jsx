@@ -12,9 +12,9 @@ const Contact = () => {
 
     emailjs.sendForm('service_331onk9', 'template_p5lwu7m', form.current, 'foML8Zfx8-xSzM_jT')
     .then((result) => {
-      document.querySelector("#message").innerHTML = "Email Sent Successfully"
+      document.querySelector("#success").innerHTML = "Email Sent Successfully"
     }, (error) => {
-        console.log(error.text);
+      document.querySelector("#error").innerHTML = "Email not sent!"
     });
     e.target.reset()
   };
@@ -73,8 +73,9 @@ const Contact = () => {
 
               <button type="submit" className='bg-blue-violet px-6 py-4 mt-5 w-max rounded-lg'>Send Message</button>
             </form>
-            <span id='message' className='text-base text-blue-secondary'>
-              <FontAwesomeIcon icon={solid('circle-check')} className="ml-2" />
+            <span id='success' className=' text-base text-blue-secondary dark:text-blue-violet'>
+            </span>
+            <span id='error' className=' text-base text-red-600'>
             </span>
           </div>
         </div>
