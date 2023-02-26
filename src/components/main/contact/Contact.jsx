@@ -53,7 +53,7 @@ const Contact = () => {
 
             {/* WhatsApp */}
             <article className='px-4 py-6 bg-blue-violet w-full md:max-w-xs rounded-lg flex flex-col justify-center items-center'>
-              <FontAwesomeIcon icon={brands('facebook-messenger')} className="mr-2 text-2xl mb-5" />
+              <FontAwesomeIcon icon={brands('whatsapp')} className="mr-2 text-2xl mb-5" />
               <h1 className='text-xl font-medium mb-1'>WhatsApp</h1>
               <p className='font-medium text-sm mb-5'>+639319918329</p>
               <a href=" https://wa.me/639319918329" target="_blank" rel="noreferrer" className='text-blue-secondary'>

@@ -11,7 +11,7 @@ const About = () => {
         {/* Introduction */}
         <div className='grid md:grid-cols-5 gap-6 mb-20'>
           <figure className='hidden col-span-2 md:flex h-4/6 lg:h-full justify-center'>
-            <img src={require('../../../assets/img/about.png')} alt="About" className='m-0' />
+            <img src='img/about.png' alt="About" className='m-0' />
           </figure>
 
           <div className='col-span-3'>

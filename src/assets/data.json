@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "image" : "img/isarog.png",
+    "alt" : "Isarog Website",
+    "techStack" : [
+      "HTML",
+      "CSS",
+      "ReactJS"
+    ],
+    "title": "Travel website of Isarog Camarines Sur",
+    "github": "https://github.com/jomar567/isarog-react",
+    "demo": "https://isarog-react.vercel.app/"
+  },
+  {
+    "id": 2,
+    "image" : "img/spaceverse.png",
+    "alt" : "Space Website",
+    "techStack" : [
+      "SASS",
+      "Bootstrap",
+      "ReactJS"
+    ],
+    "title": "Space website about planets of solar system.",
+    "github": "https://github.com/jomar567/project-2-planets",
+    "demo": "https://space-verse.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image" : "img/srms.png",
+    "alt" : "SRMS Website",
+    "techStack" : [
+      "Laravel",
+      "MySQL",
+      "Tailwind"
+    ],
+    "title": "Student Result Management System with Student and Admin Dashboard",
+    "github": "https://github.com/jomar567/capstone-srms",
+    "demo": "https://srms.kodego.online/"
+  },
+  {
+    "id": 4,
+    "image" : "img/portfolio.png",
+    "alt" : "My Personal Website",
+    "techStack" : [
+      "ReactJS",
+      "TailwindCSS"
+    ],
+    "title": "My personal website portfolio",
+    "github": "https://github.com/jomar567/jomar-clado",
+    "demo": "https://jomar-clado.vercel.app/"
+  },
+  {
+    "id": 5,
+    "image" : "img/burger.png",
+    "alt" : "Burger Website",
+    "techStack" : [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "title": "KodeGo Burger Website",
+    "github": "https://github.com/jomar567/kodego-burger",
+    "demo": "https://kodego-burger.vercel.app/"
+  },
+  {
+    "id": 6,
+    "image" : "img/react.png",
+    "alt" : "React APIs Website",
+    "techStack" : [
+      "ReactJS",
+      "Bootstrap"
+    ],
+    "title": "Fetching APIs using ReactJS demo website",
+    "github": "https://github.com/jomar567/activity-react-router",
+    "demo": "https://react-activity-group-1.vercel.app/"
+  }
+]

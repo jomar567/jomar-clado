@@ -44,9 +44,9 @@ const Home = () => {
           </div>
 
           <div className='flex justify-center items-center'>
-            <img src={require('../../../assets/img/BannerImg.png')} alt="Profile" className='pointer-events-none' />
+            <img src='img/BannerImg.png' alt="Profile" className='pointer-events-none' />
           </div>
-          
+
         </div>
       </div>
       </div>
