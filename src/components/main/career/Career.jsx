@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Career() {
+
+  const [tabShow, setTabShow] = useState(false)
+
+  const showHideEduc = () => {
+    setTabShow(false)
+  }
+  const showHideExp = () => {
+    setTabShow(true)
+  }
+
   return (
     <section>
       <div className="container mx-auto py-14">
@@ -13,20 +23,20 @@ function Career() {
         <div className='w-full max-w-[400px] mx-auto'>
           <ul className="grid grid-cols-2 -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#careerTab" role="tablist">
             <li className="mr-2" role="presentation">
-              <button className="inline-block text-sm dark:text-blue-primary" id="education-tab" data-tabs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="true">
+              <button onClick={showHideEduc} className={`${tabShow ? 'text-gray' : 'text-blue-secondary dark:text-blue-secondary'} inline-block text-sm dark:text-blue-primary`} type="button">
                 <FontAwesomeIcon icon={solid('graduation-cap')} className=" text-sm mr-2" />
                 EDUCATION
               </button>
             </li>
             <li className="mr-2" role="presentation">
-              <button className="inline-block text-sm dark:text-blue-primary" id="experience-tab" data-tabs-target="#experience" type="button" role="tab" aria-controls="experience" aria-selected="false">
+              <button onClick={showHideExp} className={`${tabShow ? 'text-blue-secondary dark:text-blue-secondary' : 'text-gray'} inline-block text-sm dark:text-blue-primary`} type="button">
                 <FontAwesomeIcon icon={solid('briefcase')} className=" text-sm mr-2" />
                 EXPERIENCE
               </button>
             </li>
           </ul>
           <div id="careerTab" className='mt-10'>
-            <div className="hidden p-4" id="education" role="tabpanel" aria-labelledby="education-tab">
+            <div className={`${tabShow ? 'hidden' : 'block'} p-4`}>
               <div className="grid grid-cols-2 md:gap-10 gap-5 mb-5">
                 <div className='flex flex-col justify-center relative
                     after:w-[10px]
@@ -71,7 +81,7 @@ function Career() {
                 </div>
               </div>
             </div>
-            <div className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+            <div className={`${tabShow ? 'block' : 'hidden'} p-4`}>
               <div className='flex flex-col justify-center items-center'>
                 <h1 className='md:text-lg text-base font-medium mb-3 text-blue-secondary'>
                   Front-end Developer
