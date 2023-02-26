@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const About = () => {
   return (
-    <section>
+    <section id='about'>
       <div className="container mx-auto py-14">
         <h1 className=' text-center text-5xl md:text-8xl font-bold text-heading dark:text-blue-secondary mb-24'>
           ABOUT

@@ -5,6 +5,7 @@ import CV from '../../assets/myCV.pdf'
 
 const Navbar = ({ handleClick, activeDark }) => {
   const [navShow, setNavShow] = useState(false)
+  const[activeNav, setActiveNav] = useState('#home')
 
   const showHideNav = () => {
     setNavShow(!navShow)
@@ -36,72 +37,35 @@ const Navbar = ({ handleClick, activeDark }) => {
               <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
             </button>
           </div>
-          {
-            navShow
-            ?
-            <div className="w-full md:block md:w-auto md:order-1">
-              <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                <li>
-                  <a href="#home" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 active hover:text-blue-secondary dark:text-blue-secondary" aria-current="page">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#about" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="#skills" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
-                    Skills
-                  </a>
-                </li>
-                <li>
-                  <a href="#projects" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
-                    Projects
-                  </a>
-                </li>
-                <li>
-                  <a href="#contacts" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
-                    Contacts
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-          :
-
-          <div className="hidden w-full md:block md:w-auto md:order-1">
+          <div className={`${navShow ? 'hidden' : 'block'} w-full md:block md:w-auto md:order-1`}>
             <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
-                <a href="#home" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 active hover:text-blue-secondary dark:text-blue-secondary" aria-current="page">
+                <a href="#home" onClick={() => setActiveNav('#home')} className={`${activeNav === '#home' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-secondary`}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
+                <a href="#about" onClick={() => setActiveNav('#about')} className={`${activeNav === '#about' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   About
                 </a>
               </li>
               <li>
-                <a href="#skills" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
+                <a href="#skills" onClick={() => setActiveNav('#skills')} className={`${activeNav === '#skills' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Skills
                 </a>
               </li>
               <li>
-                <a href="#projects" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
+                <a href="#projects" onClick={() => setActiveNav('#projects')} className={`${activeNav === '#projects' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contacts" className="block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary">
+                <a href="#contact" onClick={() => setActiveNav('#contact')} className={`${activeNav === '#contacts' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Contacts
                 </a>
               </li>
             </ul>
           </div>
-
-          }
         </div>
       </div>
     </nav>
