@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import CV from '../../assets/myCV.pdf'
 
 const Navbar = ({ handleClick, activeDark }) => {
   const [navShow, setNavShow] = useState(false)
@@ -18,9 +19,11 @@ const Navbar = ({ handleClick, activeDark }) => {
             </span>
           </a>
           <div className='md:order-2 flex justify-center items-center'>
-            <button className=' bg-blue-secondary md:text-sm text-xs text-white py-3 px-5 mr-4 rounded-lg'>
-              Download CV
-            </button>
+            <a href={CV} download="JomarClado_CV.pdf">
+              <button className=' bg-blue-secondary md:text-sm text-xs text-white py-3 px-5 mr-4 rounded-lg'>
+                Download CV
+              </button>
+            </a>
             {
               activeDark
               ?
