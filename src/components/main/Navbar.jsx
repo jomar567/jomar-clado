@@ -32,9 +32,13 @@ const Navbar = ({ handleClick, activeDark }) => {
       <div className={`${isTop ? 'shadow-blue-violet dark:shadow-blue-secondary bg-blue-primary' : 'shadow-none md:bg-transparent'} bg-blue-primary  px-3 py-5 w-full shadow-lg fixed dark:bg-white z-40`}>
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="#home" className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-blue-secondary">
-              JC
-            </span>
+            {
+              activeDark
+              ?
+                <img src="img/darkLogo.png" className='md:h-8 md:w-12 h-6 w-8' alt="" />
+              :
+              <img src="img/lightLogo.png" className='md:h-8 md:w-12 h-6 w-8' alt="" />
+            }
           </a>
           <div className='md:order-2 flex justify-center items-center'>
             <a href={CV} download="JomarClado_CV.pdf">
