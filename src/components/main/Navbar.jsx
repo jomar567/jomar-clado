@@ -77,7 +77,7 @@ const Navbar = ({ handleClick, activeDark }) => {
                 </a>
               </li>
               <li>
-                <a href="#contact" onClick={() => setActiveNav('#contact')} className={`${activeNav === '#contacts' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
+                <a href="#contact" onClick={() => setActiveNav('#contact')} className={`${activeNav === '#contact' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Contacts
                 </a>
               </li>
