@@ -6,7 +6,7 @@ import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 const Home = () => {
   return (
     <section id='home'>
-      <div className='pt-14 pb-10 md:py-0 flex justify-center items-center min-h-screen w-full'>
+      <div className=' pt-20 pb-10 md:py-0 flex justify-center items-center min-h-screen w-full'>
       <div className="container mx-auto relative">
         <div className='grid md:grid-cols-2 gap-5'>
           <div className='text-center md:text-left flex flex-col justify-center'>

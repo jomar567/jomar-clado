@@ -6,7 +6,7 @@ import Data from '../../../assets/data.json'
 const Projects = () => {
   return (
     <section id='projects'>
-      <div className="container mx-auto py-14">
+      <div className="container mx-auto py-32">
         <h1 className=' text-center text-5xl md:text-8xl font-bold text-heading dark:text-blue-secondary mb-24'>
           PROJECTS
         </h1>

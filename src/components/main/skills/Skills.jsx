@@ -5,7 +5,7 @@ import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 const Skills = () => {
   return (
     <section id='skills'>
-      <div className="container mx-auto py-14">
+      <div className="container mx-auto py-32">
         <h1 className=' text-center text-5xl md:text-8xl font-bold text-heading dark:text-blue-secondary mb-24'>
           SKILLS
         </h1>

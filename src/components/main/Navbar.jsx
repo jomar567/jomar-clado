@@ -1,18 +1,35 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import CV from '../../assets/myCV.pdf'
 
 const Navbar = ({ handleClick, activeDark }) => {
   const [navShow, setNavShow] = useState(false)
-  const[activeNav, setActiveNav] = useState('#home')
+  const [activeNav, setActiveNav] = useState('#home')
+  const [isTop, setIsTop] = useState(false);
+
+  const toggleVisibility = () => {
+    if(document.querySelector("body").scrollTop > 0) {
+      setIsTop(true)
+    } else {
+      setIsTop(false)
+    }
+  };
+
+  useEffect(() => {
+    document.querySelector("body").addEventListener('scroll', toggleVisibility)
+
+    return () => {
+      document.querySelector("body").removeEventListener('scroll', toggleVisibility)
+    }
+  }, []);
 
   const showHideNav = () => {
     setNavShow(!navShow)
   }
   return (
     <nav className={activeDark}>
-      <div className='px-3 py-5 w-full bg-blue-primary dark:bg-white z-40'>
+      <div className={`${isTop ? 'shadow-blue-violet dark:shadow-blue-secondary' : 'shadow-none'} px-3 py-5 w-full shadow-lg bg-blue-primary fixed dark:bg-white z-40`}>
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="#home" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-blue-secondary">
