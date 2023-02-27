@@ -39,6 +39,9 @@ html, body {
 .active {
   color: #647BFF
 }
+.dark .active {
+  color: red
+}
 body .portfolio {
   position: relative;
   background-color: red;

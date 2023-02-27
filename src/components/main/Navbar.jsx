@@ -29,7 +29,7 @@ const Navbar = ({ handleClick, activeDark }) => {
   }
   return (
     <nav className={activeDark}>
-      <div className={`${isTop ? 'shadow-blue-violet dark:shadow-blue-secondary' : 'shadow-none'} px-3 py-5 w-full shadow-lg bg-blue-primary fixed dark:bg-white z-40`}>
+      <div className={`${isTop ? 'shadow-blue-violet dark:shadow-blue-secondary bg-blue-primary' : 'shadow-none'} px-3 py-5 w-full shadow-lg fixed dark:bg-white z-40`}>
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="#home" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-blue-secondary">
@@ -57,27 +57,27 @@ const Navbar = ({ handleClick, activeDark }) => {
           <div className={`${navShow ? 'block' : 'hidden'} w-full md:block md:w-auto md:order-1`}>
             <ul className="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
-                <a href="#home" onClick={() => setActiveNav('#home')} className={`${activeNav === '#home' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-secondary`}>
+                <a href="#home" onClick={() => setActiveNav('#home')} className={`${activeNav === '#home' ? 'active dark:text-blue-secondary' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary`}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={() => setActiveNav('#about')} className={`${activeNav === '#about' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
+                <a href="#about" onClick={() => setActiveNav('#about')} className={`${activeNav === '#about' ? 'active dark:text-blue-secondary' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   About
                 </a>
               </li>
               <li>
-                <a href="#skills" onClick={() => setActiveNav('#skills')} className={`${activeNav === '#skills' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
+                <a href="#skills" onClick={() => setActiveNav('#skills')} className={`${activeNav === '#skills' ? 'active dark:text-blue-secondary' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Skills
                 </a>
               </li>
               <li>
-                <a href="#projects" onClick={() => setActiveNav('#projects')} className={`${activeNav === '#projects' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
+                <a href="#projects" onClick={() => setActiveNav('#projects')} className={`${activeNav === '#projects' ? 'active dark:text-blue-secondary' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#contact" onClick={() => setActiveNav('#contact')} className={`${activeNav === '#contact' ? 'active' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
+                <a href="#contact" onClick={() => setActiveNav('#contact')} className={`${activeNav === '#contact' ? 'active dark:text-blue-secondary' : ''} block py-4 pl-3 pr-4 text-gray bg-blue md:p-0 hover:text-blue-secondary dark:text-blue-primary dark:hover:text-blue-secondary`}>
                   Contacts
                 </a>
               </li>
