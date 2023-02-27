@@ -21,6 +21,11 @@ body {
   height: 100vh;
   line-height: 1;
 }
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 html, body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;

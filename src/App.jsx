@@ -1,5 +1,5 @@
 import Layout from './components/layout/Layout';
-import './index.css';
+import './assets/index.css';
 const App = () => {
   return (
     <>
