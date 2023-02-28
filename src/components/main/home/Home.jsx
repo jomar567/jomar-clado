@@ -23,7 +23,7 @@ const Home = () => {
             </h1>
             <p className=' md:text-base text-sm dark:text-blue-primary'>I am a web developer with 3 years of experience <br />
               specializing in front-end development.</p>
-            <a href="#contact">
+            <a href="#contact" className=' w-fit'>
               <button className='bg-blue-secondary text-base text-white py-2.5 px-7 mx-auto block md:mx-0 rounded-lg my-5 w-fit'>
                 Let's Talk
               </button>
