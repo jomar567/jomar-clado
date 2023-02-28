@@ -18,60 +18,60 @@ const Skills = () => {
             <div className="bg-blue-violet p-5 rounded-xl w-full md:max-w-[500px] dark:shadow-2xl dark:shadow-blue-violet">
               <div className="grid md:grid-cols-2 md:gap-4">
                 <div className='flex flex-col'>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('html5')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('html5')} className=" text-3xl lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       HTML5
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Advanced
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('css3-alt')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('css3-alt')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       CSS3
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Advanced
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('square-js')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('square-js')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       Javascript
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Intermediate
                   </span>
                 </div>
 
                 <div className='flex flex-col'>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('react')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('react')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       ReactJS
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Intermediate
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('bootstrap')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('bootstrap')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       Bootstrap
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Advanced
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('sass')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('sass')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       SASS
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Advanced
                   </span>
@@ -86,51 +86,51 @@ const Skills = () => {
             <div className="bg-blue-violet p-5 rounded-xl w-full md:max-w-[500px] h-full dark:shadow-2xl dark:shadow-blue-violet">
               <div className="grid md:grid-cols-2 md:gap-4">
                 <div className='flex flex-col'>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('php')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('php')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       PHP
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Basic
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={solid('server')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={solid('server')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       Firebase
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Basic
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('laravel')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('laravel')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       Laravel
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Intermediate
                   </span>
                 </div>
 
                 <div className='flex flex-col'>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={solid('database')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={solid('database')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       MySQL
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Intermediate
                   </span>
-                  <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                    <FontAwesomeIcon icon={brands('node')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                    <span className='px-4'>
+                  <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                    <FontAwesomeIcon icon={brands('node')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                    <p className='px-4'>
                       NodeJS
-                    </span>
-                  </button>
+                    </p>
+                  </span>
                   <span className='text-center text-xs'>
                     Basic
                   </span>
@@ -148,42 +148,42 @@ const Skills = () => {
           <div className="bg-blue-violet p-5 rounded-xl w-full md:max-w-[500px] h-full dark:shadow-2xl dark:shadow-blue-violet">
             <div className="grid md:grid-cols-2 md:gap-4">
               <div className='flex flex-col'>
-                <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                  <FontAwesomeIcon icon={brands('github')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                  <span className='px-4'>
+                <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                  <FontAwesomeIcon icon={brands('github')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                  <p className='px-4'>
                     GitHub
-                  </span>
-                </button>
+                  </p>
+                </span>
                 <span className='text-center text-xs'>
                   Intermediate
                 </span>
-                <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                  <FontAwesomeIcon icon={brands('git-alt')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                  <span className='px-4'>
+                <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                  <FontAwesomeIcon icon={brands('git-alt')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                  <p className='px-4'>
                     Git
-                  </span>
-                </button>
+                  </p>
+                </span>
                 <span className='text-center text-xs'>
                   Intermediate
                 </span>
               </div>
 
               <div className='flex flex-col'>
-                <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                  <FontAwesomeIcon icon={brands('figma')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                  <span className='px-4'>
+                <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                  <FontAwesomeIcon icon={brands('figma')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                  <p className='px-4'>
                     Figma
-                  </span>
-                </button>
+                  </p>
+                </span>
                 <span className='text-center text-xs'>
                   Basic
                 </span>
-                <button type="button" className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
-                  <FontAwesomeIcon icon={solid('rectangle-ad')} className=" text-3xl cursor-pointer lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
-                  <span className='px-4'>
+                <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                  <FontAwesomeIcon icon={solid('rectangle-ad')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                  <p className='px-4'>
                     AdobeXD
-                  </span>
-                </button>
+                  </p>
+                </span>
                 <span className='text-center text-xs'>
                   Basic
                 </span>
