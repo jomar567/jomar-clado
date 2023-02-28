@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className='bg-blue-primary dark:bg-blue-secondary'>
       <div className="container mx-auto pt-14 pb-10">
-        <h1 className=' text-center text-4xl font-bold text-blue-secondary dark:text-blue-primary mb-14'>
-          JOMAR
-        </h1>
+        <span className='flex justify-center mb-14'>
+          <img src="img/myLogo.png" className=' h-20' alt="" />
+        </span>
 
         <ul className="flex flex-col justify-center rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
           <li>
