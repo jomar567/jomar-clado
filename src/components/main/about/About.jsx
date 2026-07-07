@@ -19,16 +19,9 @@ const About = () => {
               Who Am I?
             </h1>
             <p className=' leading-6 text-justify dark:text-blue-primary'>
-              Passionate web developer with over 3 years of experience in web development specializing
-              in front-end development and a passion for responsive web design and a firm believer
-              in the mobile-first approach. My expertise lies in HTML, CSS, JavaScript, and a frontend
-              framework such as React.<br /> <br />
-
-              A great communicator and a team player who enjoys collaborating with designers,
-              and other developers to ensure that projects are delivered on time and to the highest quality. <br /><br />
-
-              I am always eager to learn new technologies and stay up-to-date with the latest industry trends,
-              and I am committed to continuous improvement and personal growth as a developer.
+              I'm a passionate Full-Stack Web Developer with over 6 years of professional experience building responsive, scalable, and user-focused web applications. I specialize in <span className='text-blue-secondary font-semibold'> HTML, CSS, JavaScript, React, PHP, Laravel, </span> and <span className='text-blue-secondary font-semibold'>MySQL</span>, with hands-on experience deploying and maintaining applications on <span className='text-blue-secondary font-semibold'>AWS</span>.
+              <br /> <br />
+              I enjoy turning ideas into clean, functional, and maintainable solutions while continuously improving my skills and staying up to date with modern web technologies. Whether working independently or collaborating with a team, I take pride in writing quality code, solving complex problems, and delivering projects that create real value for users and businesses.
             </p>
           </div>
         </div>
@@ -39,12 +32,9 @@ const About = () => {
               My Goals
             </h1>
             <p className=' leading-6 text-justify dark:text-blue-primary'>
-            I see myself working with people that develops and innovates web applications that
-            could help other people in their daily lives. As a web
-            developer, I never stop practicing my skills and widening my knowledge on learning
-            different tech stacks because technology never stops growing. <br /><br />
-            Be able to contribute to the success of different organization by delivering high-quality
-            web applications that meet the needs of end-users and business stakeholders.
+            My goal is to work with organizations and clients who value innovation, collaboration, and continuous improvement. I strive to build reliable, high-quality web applications that enhance user experience and support business growth.
+            <br/><br />
+            As a developer, I'm committed to expanding my expertise, embracing new technologies, and contributing to projects that challenge me professionally. I aim to establish long-term partnerships by consistently delivering dependable solutions, clear communication, and measurable results.
             </p>
           </div>
           <div className='md:col-span-2 col-span-3 flex h-4/6 lg:h-full justify-center'>
