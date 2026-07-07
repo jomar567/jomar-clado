@@ -166,6 +166,15 @@ const Skills = () => {
                 <span className='text-center text-xs'>
                   Intermediate
                 </span>
+                <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
+                  <FontAwesomeIcon icon={brands('aws')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
+                  <p className='px-4'>
+                    AWS
+                  </p>
+                </span>
+                <span className='text-center text-xs'>
+                  Intermediate
+                </span>
               </div>
 
               <div className='flex flex-col'>
@@ -176,7 +185,7 @@ const Skills = () => {
                   </p>
                 </span>
                 <span className='text-center text-xs'>
-                  Basic
+                  Intermediate
                 </span>
                 <span  className="w-full max-w-[180px] mx-auto my-2 bg-white text-blue-violet font-semibold rounded-lg text-sm text-center inline-flex items-center">
                   <FontAwesomeIcon icon={solid('rectangle-ad')} className=" text-3xl  lg:px-4 px-2 py-2 bg-gray rounded-bl-lg rounded-tl-lg" />
