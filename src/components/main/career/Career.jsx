@@ -82,12 +82,84 @@ function Career() {
               </div>
             </div>
             <div className={`${tabShow ? 'block' : 'hidden'} p-4`}>
-              <div className='flex flex-col justify-center items-center'>
-                <h1 className='md:text-lg text-base font-medium mb-3 text-blue-secondary'>
-                  Front-end Developer
-                </h1>
-                <p className='md:text-basetext-[.76rem] mb-1.5 dark:text-blue-primary'>Feemo Global Solutions Inc.</p>
-                <p className='md:text-xs text-[.65rem] dark:text-blue-primary'>2019 - 2022</p>
+              <div className="grid grid-cols-2 md:gap-10 gap-5">
+                <div className='flex flex-col justify-center relative
+                    after:w-[10px]
+                    after:h-[10px]
+                    after:absolute
+                    after:top-[5px]
+                    after:right-[-15px]
+                    after:bg-blue-secondary
+                    after:rounded-full
+
+                    before:w-[2px]
+                    before:h-[150px]
+                    md:before:h-[240px]
+                    before:absolute
+                    before:top-[5px]
+                    before:right-[-11px]
+                    before:bg-blue-secondary
+                    before:rounded-full'></div>
+                <div className='flex flex-col justify-center relative
+                      before:w-[10px]
+                      before:h-[10px]
+                      before:absolute
+                      before:top-[5px]
+                      before:left-[-15px]
+                      md:before:left-[-35px]
+                      before:bg-blue-secondary
+                      before:rounded-full'>
+                  <h1 className='md:text-lg text-base font-medium mb-3 text-blue-secondary'>
+                    Web Application Developer (Fullstack)
+                  </h1>
+                  <p className='md:text-base text-[.76rem] mb-1.5 dark:text-blue-primary'>MIESCOR (Meralco Industrial Engineering Services Corporation)</p>
+                  <p className='md:text-xs text-[.65rem] dark:text-blue-primary'>Aug. 2025 - PRESENT</p>
+                </div>
+              </div>
+              {/* Customer Frontline Solutions (CFS) */}
+              <div className="grid grid-cols-2 md:gap-10 gap-5 mb-5">
+                <div className='flex flex-col justify-center relative
+                    after:w-[10px]
+                    after:h-[10px]
+                    after:absolute
+                    after:top-[5px]
+                    after:right-[-15px]
+                    after:bg-blue-secondary
+                    after:rounded-full
+
+                    before:w-[2px]
+                    before:h-[150px]
+                    md:before:h-[220px]
+                    before:absolute
+                    before:top-[5px]
+                    before:right-[-11px]
+                    before:bg-blue-secondary
+                    before:rounded-full'>
+                  <h1 className='md:text-lg text-base font-medium mb-3 text-blue-secondary'>
+                    Sr. Web Application Developer (Fullstack)
+                  </h1>
+                  <p className='md:text-base text-[.76rem] mb-1.5 dark:text-blue-primary'>Customer Frontline Solutions (CFS)</p>
+                  <p className='md:text-xs text-[.65rem] dark:text-blue-primary'>March 2023 - Jul. 2025</p>
+                </div>
+              </div>
+              {/* Feemo Global Solutions Inc. */}
+              <div className="grid grid-cols-2 md:gap-10 gap-5">
+                <div></div>
+                <div className='flex flex-col justify-center relative
+                      before:w-[10px]
+                      before:h-[10px]
+                      before:absolute
+                      before:top-[5px]
+                      before:left-[-15px]
+                      md:before:left-[-35px]
+                      before:bg-blue-secondary
+                      before:rounded-full'>
+                  <h1 className='md:text-lg text-base font-medium mb-3 text-blue-secondary'>
+                    Front-end Developer
+                  </h1>
+                  <p className='md:text-base text-[.76rem] mb-1.5 dark:text-blue-primary'>Feemo Global Solutions Inc.</p>
+                  <p className='md:text-xs text-[.65rem] dark:text-blue-primary'>2019 - 2022</p>
+                </div>
               </div>
             </div>
           </div>
